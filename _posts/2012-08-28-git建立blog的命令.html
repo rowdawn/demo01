@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>git建立blog的命令</title>
+</head>
+<body>
+	<ul>
+		<li>初始化: git init 建立git仓库 仓库名要和git的仓库名一样</li>
+		<li>建立一个没有父节点的分支gh-pages.因为该分支中的页面才会生成网页文件</li>
+		<li>创建配置文件_config.yml，它是jekyll的设置文件 内容如下:
+			baseurl: /jekyll_demo</li>
+		<li>在项目根目录下，创建一个_layouts目录用于存放模版</li>
+		<li>创建文章目录：_posts</li>
+		<li>创建首页:index.html</li>
+		<li>发布内容:git add .</li>
+		<li>git commit -m "first post"</li>
+		<li>git remote add origin http://github.com/username/demo01</li>
+		<li>git push origin gh-pages</li>
+	</ul>
+</body>	
+
+</html>
